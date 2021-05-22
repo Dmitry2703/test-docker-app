@@ -1,0 +1,15 @@
+{
+  "name": "@test-docker-app/app",
+  "version": "0.1.0",
+  "license": "UNLICENCED",
+  "private": true,
+  "dependencies": {
+    "@test-docker-app/common": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5"
+  }
+}

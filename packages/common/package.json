@@ -1,0 +1,7 @@
+{
+  "name": "@test-docker-app/common",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "license": "UNLICENCED",
+  "private": true
+}

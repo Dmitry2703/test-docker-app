@@ -1,0 +1,23 @@
+{
+  "name": "test-docker-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENCED",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.12.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "app": "yarn workspace @test-docker-app/app",
+    "common": "yarn workspace @test-docker-app/common",
+    "server": "yarn workspace @test-docker-app/server",
+    "build": "ts-node ./scripts/build.ts",
+    "serve": "node ./packages/server/dist/index.js",
+    "docker": "docker build . -t test-docker-app"
+  }
+}
