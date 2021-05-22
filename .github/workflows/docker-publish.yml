@@ -20,5 +20,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: Dmitry2703/test-docker-app/docker-app
+          repository: Dmitry2703/test-docker-app/docker-app:latest
           tag_with_ref: true
